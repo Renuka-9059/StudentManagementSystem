@@ -1,25 +1,21 @@
 # 🎓 Student Management System
 
-A full-stack **Student Management System** developed using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**. The application provides a complete solution for managing students, courses, attendance, and examination results with a modern and responsive user interface.
+A **Full Stack Student Management System** developed using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**. The application provides a complete solution to manage students, courses, attendance, and examination results through a modern and responsive web interface.
 
----
-
-# ✨ Features
+## ✨ Features
 
 * 🔐 User Login & Registration
-* 📊 Dashboard with Statistics & Charts
+* 📊 Dashboard with Statistics & Bar Chart
 * 👨‍🎓 Student Management (CRUD)
 * 📚 Course Management (CRUD)
 * 📅 Attendance Management (CRUD)
-* 📝 Results Management (CRUD)
+* 📝 Result Management (CRUD)
 * 🔍 Search Functionality
-* 📄 Export to PDF
-* 📊 Export to Excel
-* 📱 Responsive Design
+* 📄 Export Students, Courses, Attendance & Results to PDF
+* 📊 Export Students, Courses, Attendance & Results to Excel
+* 📱 Responsive User Interface
 
----
-
-# 🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 ### Frontend
 
@@ -46,9 +42,7 @@ A full-stack **Student Management System** developed using the **MERN Stack (Mon
 * VS Code
 * Postman
 
----
-
-# 📂 Project Structure
+## 📂 Project Structure
 
 ```text
 StudentManagementSystem
@@ -59,9 +53,7 @@ StudentManagementSystem
 └── README.md
 ```
 
----
-
-# ⚙️ Installation
+## ⚙️ Installation
 
 ### Clone Repository
 
@@ -69,98 +61,100 @@ StudentManagementSystem
 git clone https://github.com/Renuka-9059/StudentManagementSystem.git
 ```
 
-### Install Client
+### Install Frontend Dependencies
 
 ```bash
 cd client
 npm install
 ```
 
-### Install Server
+### Install Backend Dependencies
 
 ```bash
 cd ../server
 npm install
 ```
 
-### Run Backend
+### Start Backend Server
 
 ```bash
 npm run dev
 ```
 
-### Run Frontend
+### Start Frontend
 
 ```bash
 cd ../client
 npm start
 ```
 
----
+## 📸 Project Screenshots
 
-# 📸 Project Screenshots
-
-## 🔐 Login Page
+### 🔐 Login Page
 
 ![Login](screenshots/login.png)
 
----
+### 📊 Dashboard
 
-## 📊 Dashboard
-
-### Dashboard - 1
+#### Dashboard 1
 
 ![Dashboard 1](screenshots/dashboard1.png)
 
-### Dashboard - 2
+#### Dashboard 2
 
 ![Dashboard 2](screenshots/dashboard2.png)
 
----
+### 👨‍🎓 Student Management
 
-## 👨‍🎓 Student Management
+![Students](screenshots/Students.png)
 
-![Students](screenshots/students.png)
-
----
-
-## 📚 Course Management
+### 📚 Course Management
 
 ![Courses](screenshots/courses.png)
 
----
-
-## 📅 Attendance Management
+### 📅 Attendance Management
 
 ![Attendance](screenshots/attendance.png)
 
----
-
-## 📝 Results Management
+### 📝 Results Management
 
 ![Results](screenshots/result.png)
 
----
-
-# 🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 * JWT Authentication
+* Role-Based Login
 * Email Notifications
 * Student Profile Images
 * Dark Mode
-* Role-Based Access Control
 * Live Dashboard Analytics
+* Cloud Deployment
 
----
+## 💡 Key Modules
 
-# 👩‍💻 Developer
+* Dashboard
+* Student Management
+* Course Management
+* Attendance Management
+* Results Management
+* Authentication
+* Reports (PDF & Excel)
+
+## 📄 Export Features
+
+* Students → PDF & Excel
+* Courses → PDF & Excel
+* Attendance → PDF & Excel
+* Results → PDF & Excel
+
+## 👩‍💻 Developer
 
 **Renuka**
 
 GitHub: https://github.com/Renuka-9059
 
----
-
-# 📄 License
+## 📜 License
 
 This project is developed for educational and learning purposes.
+
+⭐ If you found this project useful, don't forget to **Star ⭐ this repository!**
