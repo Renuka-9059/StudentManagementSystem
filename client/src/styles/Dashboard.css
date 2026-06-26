@@ -1,0 +1,74 @@
+.dashboard-card {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px;
+  border-radius: 18px;
+  color: white;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.35s ease;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+}
+
+.dashboard-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 35px rgba(0,0,0,0.30);
+}
+
+.dashboard-card h6 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.dashboard-card h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.dashboard-icon {
+  font-size: 65px;
+  opacity: 0.20;
+}
+
+.dashboard-card::before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 50%;
+  top: -60px;
+  right: -60px;
+}
+
+.dashboard-card::after {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 50%;
+  bottom: -35px;
+  left: -35px;
+}
+
+/* Gradient Colors */
+
+.students-card{
+  background: linear-gradient(135deg,#4e54c8,#8f94fb);
+}
+
+.courses-card{
+  background: linear-gradient(135deg,#11998e,#38ef7d);
+}
+
+.attendance-card{
+  background: linear-gradient(135deg,#f7971e,#ffd200);
+}
+
+.results-card{
+  background: linear-gradient(135deg,#fc466b,#3f5efb);
+}
